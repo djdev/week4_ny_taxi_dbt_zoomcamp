@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: staging
+    database: influential-bit-412922
+    schema: trips_data_all
+    tables:
+      - name: green_tripdata
+      - name: yellow_tripdata
+      # - freshness: 
+      #     warn_after: {
+      #       count: 5
+      #       period: hour
+      #     }
+      #     error_after: {
+      #       count: 6
+      #       period: hour
+      #     }
+      
