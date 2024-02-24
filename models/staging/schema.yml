@@ -7,6 +7,9 @@ sources:
     tables:
       - name: green_tripdata
       - name: yellow_tripdata
+      - name: fhv_tripdata
+      - name: fhv_tripdata_2019
+      - name: fhv_tripdata_non_string
       # - freshness: 
       #     warn_after: {
       #       count: 5
